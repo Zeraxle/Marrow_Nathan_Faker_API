@@ -21,12 +21,3 @@ export const getAllCompanies = async(req, res) => {
     return res.status(200).json(Companies)
 }
 
-// export const createCompany = async(req, res) => {
-//     Companies.push(req.body)
-//     return res.status(201).json(`Company added`)
-// }
-
-// export const getCompanyById = async(req, res) => {
-//     const {_id} = req.params
-//     return res.status(200).json(Companies[_id])
-// }

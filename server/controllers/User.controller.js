@@ -24,13 +24,3 @@ export const getUsersAndCompanies = async(req, res) => {
     return res.status(200).json([Users, Companies])
 }
 
-// export const createUser = async(req, res) => {
-//     Users.push(req.body)
-//     return res.status(201).json(`User added`)
-// }
-
-// export const getUserById = async(req, res) => {
-//     const {_id} = req.params
-//     return res.status(200).json(Users[_id])
-// }
-
